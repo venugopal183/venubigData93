@@ -9,7 +9,7 @@ import org.apache.spark.sql._
 object struct_type {
   def main(args:Array[String]):Unit={
     val conf = new SparkConf().setAppName("first").setMaster("local[*]")
-      .set("fs.s3a.access.key","AKIAULEZTMHLI2ZR4UDF").set("fs.s3a.secret.key","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")
+      .set("fs.s3a.access.key","********************").set("fs.s3a.secret.key","*****************************")
     val sc = new SparkContext(conf)
     sc.setLogLevel("ERROR")
 
@@ -26,7 +26,7 @@ object struct_type {
       StructField("salary", IntegerType, true)
     ))
 
-    val sc_data = spark.read.format("csv").schema(new_schema).load("s3a://venu07bucket/schemadata.csv")
+    val sc_data = spark.read.format("csv").schema(new_schema).load("s3a://venu07hdsdbucket/schemadata.csv")
     sc_data.show()
 
 

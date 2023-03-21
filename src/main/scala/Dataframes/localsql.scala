@@ -19,7 +19,7 @@ object localsql {
       .option("url","***************************")
       .option("driver","com.mysql.jdbc.Driver")
       .option("dbtable","***********************")
-      .option("user","root")
+      .option("user","*****")
       .option("password","************")
       .load()
     loc_sql.show()
