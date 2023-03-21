@@ -7,7 +7,7 @@ import  org.apache.spark.sql._
 
 object scala_task {
   def main(args:Array[String]):Unit={
-    val conf = new SparkConf().setAppName("local").setMaster("local[*]").set("fs.s3a.access.key","AKIAULEZTMHLI2ZR4UDF").set("fs.s3a.secret.key","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")
+    val conf = new SparkConf().setAppName("first").setMaster("local[*]").set("fs.s3a.access.key","**************************").set("fs.s3a.secret.key","**************************************************")
 
     val sc = new SparkContext(conf)
     sc.setLogLevel("ERROR")

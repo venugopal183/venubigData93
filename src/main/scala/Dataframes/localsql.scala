@@ -16,11 +16,11 @@ object localsql {
     import spark.implicits._
 
     val loc_sql = spark.read.format("jdbc")
-      .option("url","jdbc:mysql://localhost:3306/itv003173")
+      .option("url","***************************")
       .option("driver","com.mysql.jdbc.Driver")
-      .option("dbtable","Sales_Table_itv0003173")
+      .option("dbtable","***********************")
       .option("user","root")
-      .option("password","Prok7@tgos17")
+      .option("password","************")
       .load()
     loc_sql.show()
   }

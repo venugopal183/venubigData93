@@ -27,10 +27,6 @@ object complex_flattening {
     df.show()
     df.printSchema()
 
-    println
-    println
-    println
-
 
 
     val flattendf = df
@@ -38,11 +34,6 @@ object complex_flattening {
 
     flattendf.show()
     flattendf.printSchema()
-
-
-    println
-    println
-    println
 
 
 
