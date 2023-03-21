@@ -24,7 +24,7 @@ object Jdbc {
     val sqldf = spark
       .read
       .format("jdbc")
-      .option("url","jdbc:mysql://database-1.cwv8krqq8b83.ap-south-1.rds.amazonaws.com/zeyodb")
+      .option("url","*************************************")
       .option("driver","com.mysql.jdbc.Driver")
       .option("dbtable","cashdata")
       .option("user","root")
