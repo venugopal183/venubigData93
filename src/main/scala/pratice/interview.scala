@@ -8,7 +8,7 @@ import org.apache.spark.sql.expressions.Window
 
 object interview {
 def main(args:Array[String]):Unit={
-  val conf = new SparkConf().setAppName("Hey Buddy").setMaster("local[*]").set("fs.s3a.access.key","AKIAULEZTMHLI2ZR4UDF").set("fs.s3a.secret.key","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")
+  val conf = new SparkConf().setAppName("Hey Buddy").setMaster("local[*]").set("fs.s3a.access.key","********************").set("fs.s3a.secret.key","*************************************")
   val sc= new SparkContext(conf)
   sc.setLogLevel("ERROR")
 
