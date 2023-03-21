@@ -19,7 +19,7 @@ object Jdbc {
     import spark.implicits._
 
     println("Reading data from database")
-    //val sqldf = spark .read .format("jdbc") .option("url","jdbc:mysql://database-1.cwv8krqq8b83.ap-south-1.rds.amazonaws.com/zeyodb") .option("driver","com.mysql.jdbc.Driver") .option("dbtable","cashdata") .option("user","root") .option("password","Aditya909") .load
+    //val sqldf = spark .read .format("jdbc") .option("url","jdbc:mysql:*******************") .option("driver","com.mysql.jdbc.Driver") .option("dbtable","cashdata") .option("user","*******") .option("password","********") .load
     //sqldf.show()
     val sqldf = spark
       .read
@@ -27,8 +27,8 @@ object Jdbc {
       .option("url","*************************************")
       .option("driver","com.mysql.jdbc.Driver")
       .option("dbtable","cashdata")
-      .option("user","root")
-      .option("password","Aditya909")
+      .option("user","*******")
+      .option("password","********")
       .load
 
 
